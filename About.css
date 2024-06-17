@@ -1,0 +1,154 @@
+.card {
+    background: #000000;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 1420px;
+    height: 650px;
+    margin-left: 10px;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    margin: 1em;
+  }
+  
+  .card .img {    
+    margin: auto;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: red;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #1f4fe0;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
+  .ax{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(2, 2, 79);
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.08rem;
+  }
+  .left{
+    font-size: 2rem;
+    color:aqua;
+  }
+
+  .shine{
+    text-decoration: none;
+    color: aqua;
+  }
+
+  .shine {
+    font-size: 0.8em;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.3);
+    background: #222 -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#222),
+        to(#222),
+        color-stop(0.5, #fff)
+      ) 0 0 no-repeat;
+    background-image: -webkit-linear-gradient(
+      -40deg,
+      transparent 0%,
+      transparent 40%,
+      #fff 50%,
+      transparent 60%,
+      transparent 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-background-size: 50px;
+    -webkit-animation: zezzz;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes zezzz {
+    0%,
+    10% {
+      background-position: -200px;
+    }
+    20% {
+      background-position: top left;
+    }
+    100% {
+      background-position: 200px;
+    }
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}

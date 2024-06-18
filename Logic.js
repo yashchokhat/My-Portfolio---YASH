@@ -13,6 +13,7 @@ mode.addEventListener('change', () =>{
     else{
         alert("Turn on Nigth Mode");
         document.querySelector("body").style.backgroundColor = "rgb(0,0,33)";
+        document.querySelector("body").style.color = "white";
         crr="night";
     }
 
